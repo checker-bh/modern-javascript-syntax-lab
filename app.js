@@ -16,3 +16,11 @@ console.log("Ex1 : "+nums2); // Logs: [26, 174, 4, 178, 24, 8, 180, 126]
 // Exercise 2: Array destructuring
 const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 console.log("Ex2 :  the First : "+pizzaToppings[0]+ " ,,,The second : "+pizzaToppings[1] ); // Logs: Pineapple, Olives
+
+// Exercise 3: Destructuring objects
+const car = {
+  make: 'Audi',
+  model: 'q5',
+};
+console.log("Ex3 : "+ car.make + " and " +car.model ) // Logs: Audi and q5
+
