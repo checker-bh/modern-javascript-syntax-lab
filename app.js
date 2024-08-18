@@ -39,3 +39,9 @@ myCar.make = 'Toyota';
 myCar.model = 'q7';
 console.log("Ex5 : "+myCar.make +" And "+ myCar.model ) // Logs: Toyota And q7
 
+// Exercise 6: Dynamic keys in objects
+const userProfile = {};
+const propertyName = "username";
+userProfile[propertyName] = "Ahmed";
+console.log("Ex6 : ");
+console.log(userProfile); // Logs: { username: 'Ahmed' }
