@@ -56,3 +56,13 @@ console.log(fun()); // Logs: The cat is white.
 // Exercise 9: Ternary operator
 let pizza = 'tasty' ? "yum" : "yuck";
 console.log("Ex9 : "+ pizza); // Logs: yum
+
+// Exercise 10: Boolean gates
+const localLangConfig = "ar";
+const LANG = localLangConfig || 'en';
+console.log("Ex10 : ");
+console.log('Language setting:', LANG); // Logs: Language setting: ar
+
+const userSavedTheme = 'dark';
+const USER_THEME = userSavedTheme || 'light';
+console.log('User theme setting:', USER_THEME); // Logs: User theme setting: dark
