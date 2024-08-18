@@ -24,3 +24,9 @@ const car = {
 };
 console.log("Ex3 : "+ car.make + " and " +car.model ) // Logs: Audi and q5
 
+// Exercise 4: Applying the spread operator on arrays
+const pizzaToppings2 = ['Pineapple', 'Olives', 'Anchovies'];
+const controversialPizzaToppings = [...pizzaToppings2];
+console.log("Ex4 : "+ controversialPizzaToppings); // Logs: ['Pineapple', 'Olives', 'Anchovies']
+
+
