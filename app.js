@@ -29,4 +29,13 @@ const pizzaToppings2 = ['Pineapple', 'Olives', 'Anchovies'];
 const controversialPizzaToppings = [...pizzaToppings2];
 console.log("Ex4 : "+ controversialPizzaToppings); // Logs: ['Pineapple', 'Olives', 'Anchovies']
 
+// Exercise 5: Applying the spread operator on objects
+const car2 = {
+  make: 'Audi',
+  model: 'q5',
+};
+const myCar = {...car2};
+myCar.make = 'Toyota';
+myCar.model = 'q7';
+console.log("Ex5 : "+myCar.make +" And "+ myCar.model ) // Logs: Toyota And q7
 
