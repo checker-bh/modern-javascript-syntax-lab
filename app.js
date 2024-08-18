@@ -66,3 +66,10 @@ console.log('Language setting:', LANG); // Logs: Language setting: ar
 const userSavedTheme = 'dark';
 const USER_THEME = userSavedTheme || 'light';
 console.log('User theme setting:', USER_THEME); // Logs: User theme setting: dark
+
+// Exercise 11: Optional chaining
+const adventurer = {
+  name: 'Alice',
+};
+let cat = adventurer.age?.name;
+console.log(cat); // Logs: undefined
