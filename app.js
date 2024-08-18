@@ -45,3 +45,10 @@ const propertyName = "username";
 userProfile[propertyName] = "Ahmed";
 console.log("Ex6 : ");
 console.log(userProfile); // Logs: { username: 'Ahmed' }
+
+// Exercise 8: Default parameters
+const fun = (noun = 'cat', adjective = 'white') => {
+  return "The "+noun +" is "+adjective;
+};
+console.log("Ex8 : ");
+console.log(fun()); // Logs: The cat is white.
