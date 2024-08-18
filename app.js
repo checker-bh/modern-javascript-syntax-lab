@@ -52,3 +52,7 @@ const fun = (noun = 'cat', adjective = 'white') => {
 };
 console.log("Ex8 : ");
 console.log(fun()); // Logs: The cat is white.
+
+// Exercise 9: Ternary operator
+let pizza = 'tasty' ? "yum" : "yuck";
+console.log("Ex9 : "+ pizza); // Logs: yum
